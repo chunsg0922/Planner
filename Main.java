@@ -1,5 +1,6 @@
 package classSet;
 
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -21,7 +22,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application{
 
-	// main ¸Ş¼Òµå ºÎºĞ : ÇÃ·¡³Ê¸¦ ½ÇÇàÇÏ´Â À§Ä¡
+	// main ë©”ì†Œë“œ ë¶€ë¶„ : í”Œë˜ë„ˆë¥¼ ì‹¤í–‰í•˜ëŠ” ìœ„ì¹˜
 	public static void main(String[] args) throws SQLException{
 		launch(args);
 	}
@@ -31,7 +32,7 @@ public class Main extends Application{
 
 		Parent root = FXMLLoader.load(getClass().getResource("/FXML/Mainpage.fxml"));
 		Scene scene = new Scene(root);
-		primaryStage.setTitle("¸¶ÀÌÇÃ·¡³Ê v.1.0");
+		primaryStage.setTitle("ë§ˆì´í”Œë˜ë„ˆ v.1.0");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
