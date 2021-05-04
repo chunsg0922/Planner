@@ -33,14 +33,3 @@ public class Plan {
 }
 	
 	
-	
-	
-	
-//	public Plan(String category, String name, LocalDate planBeginTime, LocalDate planEndTime, String memo) {
-//	
-//		this.name = name;
-//		this.category = category;
-//		this.planBeginTime = planBeginTime;
-//		this.planEndTime = planEndTime;
-//		this.memo = memo;
-//	}
